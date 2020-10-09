@@ -17,6 +17,14 @@ header {
   padding: 20px 0;
 }
 
+.activo{
+  border: solid 1px yellow;
+}
+
+.fondorojo{
+  background-color: red;
+}
+
 div.contenedor,
 div.contenido {
   width: 1200px;
@@ -86,6 +94,39 @@ main {
 aside {
   float: right;
   width: 30%;
+}
+/** Servicios**/
+div.servicios{
+  margin-top: 30px;
+}
+div.servicios nav{
+  background-color: #00b8e4;
+}
+div.servicios nav a{
+  padding: 10px;
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+}
+div.servicios nav a.activo{
+  background-color: #db008d;
+  border: none;
+}
+div.servicios nav a:hover{
+  background-color: #db008d;
+}
+div.nuestros-servicios{
+  position: relative;
+  height: 200px;
+}
+div.nuestros-servicios > div{
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #db008d;
+  padding: 20px;
+  display: none;
+  color: #ffffff;
 }
 /* entradas **/
 article {
